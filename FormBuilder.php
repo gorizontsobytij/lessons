@@ -1,15 +1,13 @@
 <?php
 
-
 namespace Builder;
-
 
 use Builder\Form;
 use Builder\FormBuilderInterface;
 
-
 require_once 'FormBuilderInterface.php';
 require_once 'Form.php';
+require_once 'FormManager.php';
 
 class FormBuilder implements FormBuilderInterface
 {
@@ -78,6 +76,7 @@ class FormBuilder implements FormBuilderInterface
         $this->formBuilder->country = $country;
         return $this;
     }
+
     /**
      * @return Form
      */

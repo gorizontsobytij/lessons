@@ -5,6 +5,7 @@ namespace Builder;
 
 require_once 'FormBuilder.php';
 require_once 'FormBuilderInterface.php';
+require_once 'FormManager.php';
 
 class Form
 {
